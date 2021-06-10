@@ -36,7 +36,7 @@ A variety of strategies and improvements is applied throughout the 4 building bl
 
 ### Source Code --- `my_detect.py`
 
-To meet the requirements (display my student id and the object counts), I modify `detect.py` of `yolov5` project to `my_detect.py`. The source code of `my_detect.py` is attached below.
+To meet the requirements (display my student id and the object counts), I modify `detect.py` of `yolov5` project to `my_detect.py`. The source code of `my_detect.py` is attached below. Changes are marked with `# 0712238`.
 If the source code is cut due to the limitation of page width, please visit [the online version of this report](https://hackmd.io/@ytlin/DIP-final) or [the GitHub repo](https://github.com/EazyReal/DIP2021spring/tree/main/final).
 
 ```=python
@@ -277,7 +277,7 @@ The adopted model successfully detects the pair of person and bicyble in the bac
 - baseline (YOLOv3)
 ![](https://i.imgur.com/j2fYSX3.jpg)
 - this work (YOLOv5)
-![](https://i.imgur.com/FY6nMBk.jpg)
+![](https://i.imgur.com/O8GgrGE.jpg)
 
 
 YOLOv5 is a relatively new model compared to the baseline (YOLOv3), so it is not surprising that it outperforms YOLOv3. Also, I adopt the `yolov5x` weight, which is the largest model available, to do the inference.
